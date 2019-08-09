@@ -7,6 +7,10 @@ import Form from "./form"
 class App extends React.Component{
   constructor(){
     super();
+    this.state ={
+      infoArray: [],
+      status: false,
+    }
   }
 
   render(){
